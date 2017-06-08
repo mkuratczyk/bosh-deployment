@@ -12,6 +12,7 @@
     name: turbulence_api
     release: turbulence
     properties:
+      listen_port: 8081
       password: ((turbulence_api_password))
       cert: ((turbulence_api_ssl))
       director:
